@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import com.carlossanchez.dulceapps.dulcepack.Dulce1Activity;
 import com.carlossanchez.dulceapps.dulcepack.Dulce2Activity;
+import com.carlossanchez.dulceapps.dulcepack.Dulce3Activity;
+import com.carlossanchez.dulceapps.dulcepack.Dulce4Activity;
 
  public class DulcePrintActivity extends AppCompatActivity {
 
@@ -21,6 +23,8 @@ import com.carlossanchez.dulceapps.dulcepack.Dulce2Activity;
 
         dulce1 = findViewById(R.id.dulce1);
         dulce2 = findViewById(R.id.dulce2);
+        dulce3 = findViewById(R.id.dulce3);
+        dulce4 = findViewById(R.id.dulce4);
 
 
         dulce1.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +41,22 @@ import com.carlossanchez.dulceapps.dulcepack.Dulce2Activity;
             public void onClick(View view) {
                 Intent C = new Intent(DulcePrintActivity.this,Dulce2Activity.class);
                 startActivity(C);
+            }
+        });
+
+        dulce3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent E = new Intent(DulcePrintActivity.this, Dulce3Activity.class);
+                startActivity(E);
+            }
+        });
+
+        dulce4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent H = new Intent(DulcePrintActivity.this, Dulce4Activity.class);
+                startActivity(H);
             }
         });
 

@@ -1,9 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.carlossanchez.dulceapps.dulcepack.Dulce3Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/btnmango"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/bt1"
+            android:background="@drawable/ic_return24dp"
+            android:backgroundTint="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/Titud3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnmango"
+            android:layout_alignLeft="@+id/btnmango"
+            android:layout_alignStart="@+id/btnmango"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:fontFamily="@font/aclonica"
+            android:text="PASTEL DE MANGO"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imgmango"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/subtitem"
+            android:layout_marginTop="-15dp"
+            android:src="@drawable/dulce3" />
+
+        <TextView
+            android:id="@+id/subtitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnmango"
+            android:layout_marginTop="18dp"
+            android:text="Como Hacer el Pastel de mango "
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/mangotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgmango"
+            android:fontFamily="serif"
+            android:text="@string/mangotext"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

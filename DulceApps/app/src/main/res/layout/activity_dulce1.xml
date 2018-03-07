@@ -65,7 +65,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/menu1"
@@ -94,7 +94,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/teximeg2b"
@@ -106,7 +106,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/img3"
@@ -121,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/img3"
-            android:background="@color/colorPrimary"
+            android:background="@android:color/transparent"
             android:padding="0dp"
             android:src="@drawable/dulce1_cc" />
 
@@ -135,7 +135,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/img5"
@@ -154,7 +154,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
