@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:backgroundTint="?attr/colorButtonNormal"
+    tools:context="com.carlossanchez.dulceapps.dulcepack.Dulce1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/bt1"
+            android:background="@drawable/ic_return24dp" />
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/texdulce1"
+            android:padding="0dp"
+            android:src="@drawable/dulce1" />
+
+        <TextView
+            android:id="@+id/texdulce1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn1"
+            android:fontFamily="serif"
+            android:text="Como preparar los !!christmas cupcakes!!"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/teximg2"
+            android:padding="0dp"
+            android:src="@drawable/dulce1_aa" />
+
+        <TextView
+            android:id="@+id/texdulce1A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:fontFamily="serif"
+            android:text="@string/PASO1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/btn1"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignStart="@+id/btn1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/aclonica"
+            android:text="christmas cupcake"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teximg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texdulce1A"
+            android:fontFamily="serif"
+            android:text="@string/PASO2"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/teximeg2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img2"
+            android:fontFamily="serif"
+            android:text="@string/PASO3"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/teximeg2b"
+            android:padding="0dp"
+            android:src="@drawable/dulce1_bb" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img3"
+            android:background="@color/colorPrimary"
+            android:padding="0dp"
+            android:src="@drawable/dulce1_cc" />
+
+        <TextView
+            android:id="@+id/textdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img4"
+            android:fontFamily="serif"
+            android:text="@string/PASOfinal"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textdd"
+            android:src="@drawable/dulce1_dd" />
+
+        <TextView
+            android:id="@+id/textdd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img5"
+            android:fontFamily="serif"
+            android:text="@string/saludo"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+</ScrollView>
